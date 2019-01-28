@@ -8,6 +8,7 @@ print(x)
 print('Enter Middle Name:')
 y = input()
 print(y)
+
 print('Enter Last Name:')
 z = input()
 print(z)
@@ -31,4 +32,5 @@ with open("data.csv", "r+") as f:
     writer.writerow(["First", "Middle", "Last"])
     output = writer.writerow([x, y, z])
     f.close()
+        
 
